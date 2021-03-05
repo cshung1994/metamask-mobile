@@ -35,7 +35,7 @@ import AppConstants from '../../../core/AppConstants';
 import { WALLET_CONNECT_ORIGIN } from '../../../util/walletconnect';
 import { withNavigation } from 'react-navigation';
 import { getNetworkName, isMainNet } from '../../../util/networks';
-import { capitalize } from '../../../util/format';
+import { capitalize } from '../../../util/general';
 import EditPermission from './EditPermission';
 
 const { hexToBN } = util;
